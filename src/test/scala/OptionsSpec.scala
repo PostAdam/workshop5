@@ -71,4 +71,12 @@ class OptionsSpec extends FeatureSpec {
       assert(expected == actual)
     }
   }
+
+  feature("Option vs Some") {
+    scenario("Option(null) vs Some(null") {
+      assert(null == Some(null).get)
+      assert(Some(null).isDefined)
+      assert(Option(null).isEmpty)
+    }
+  }
 }

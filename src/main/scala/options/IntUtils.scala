@@ -3,7 +3,7 @@ package options
 object IntUtils {
   def toInt(s: String): Option[Int] =
     try {
-      Some(Integer.parseInt(s.trim))
+      Some(s.toInt)
     } catch {
       case _: Exception => None
     }

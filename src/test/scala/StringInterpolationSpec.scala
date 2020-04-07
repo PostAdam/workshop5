@@ -43,7 +43,7 @@ class StringInterpolationSpec extends FeatureSpec {
 
     scenario("Passing wrong variable type to f interpolator issues an error") {
       val height: Double = 1.9d
-      //      val invalidFormattedString = f"$height%4d"
+//      val invalidFormattedString = f"$height%4d"
     }
   }
 
